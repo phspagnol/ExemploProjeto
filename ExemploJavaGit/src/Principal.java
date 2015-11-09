@@ -19,7 +19,7 @@ public class Principal {
     public static void main(String[] args) {
         // TODO code application logic here
         Cidade c= new Cidade(1,"Tapejara", "RS");
-        Pessoa p= new Pessoa(1,"Paulo Henrique", c);
+        Pessoa p= new Pessoa(1,"hbyubyby", c);
         String saida=("Nome "+p.getNome()+" Cidade: "+p.getCidade().getNome());
         
         JOptionPane.showMessageDialog(null, saida);
